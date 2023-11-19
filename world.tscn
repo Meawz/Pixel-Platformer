@@ -1,8 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://jlqrig7lriss"]
+[gd_scene load_steps=7 format=3 uid="uid://jlqrig7lriss"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_v4wpp"]
 [ext_resource type="PackedScene" uid="uid://c3ch5y1y7sc1f" path="res://player.tscn" id="2_087c8"]
 [ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://spikes.tscn" id="3_8ihye"]
+[ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://intel.tscn" id="4_vbmaf"]
+[ext_resource type="PackedScene" uid="uid://ck173oienetti" path="res://level_completed.tscn" id="5_e2dqs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sv1su"]
 size = Vector2(26, 88)
@@ -44,3 +46,17 @@ position = Vector2(280, 144)
 
 [node name="Spikes4" parent="." instance=ExtResource("3_8ihye")]
 position = Vector2(288, 144)
+
+[node name="Intel" parent="." instance=ExtResource("4_vbmaf")]
+position = Vector2(9, -10)
+
+[node name="Intel2" parent="." instance=ExtResource("4_vbmaf")]
+position = Vector2(281, 41)
+
+[node name="Intel3" parent="." instance=ExtResource("4_vbmaf")]
+position = Vector2(245, -9)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="LevelCompleted" parent="CanvasLayer" instance=ExtResource("5_e2dqs")]
+visible = false
