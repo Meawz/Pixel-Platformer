@@ -1,3 +1,4 @@
 res://world.tscn
 res://player.tscn
-res://level_title_map.tscn
+res://level_tile_map.tscn
+res://world.gd

@@ -6,7 +6,7 @@ extends Node2D
 
 func _ready():
 	RenderingServer.set_default_clear_color(Color.DARK_SLATE_GRAY) # Sets the color of the background
-	polygon_2d.polygon = collision_polygon_2d.polygon
+	# polygon_2d.polygon = collision_polygon_2d.polygon
 	Events.level_completed.connect(show_level_completed)
 
 func show_level_completed(): # Displays "Level Completed!" screen after collecting all Intel in the level
