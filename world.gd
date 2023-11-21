@@ -1,7 +1,7 @@
 extends Node2D
 
 @onready var collision_polygon_2d = $StaticBody2D/CollisionPolygon2D
-@onready var polygon_2d = $StaticBody2D/CollisionPolygon2D/Polygon2D
+# @onready var polygon_2d = $StaticBody2D/CollisionPolygon2D/Polygon2D
 @onready var level_completed = $CanvasLayer/LevelCompleted
 
 func _ready():
