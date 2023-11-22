@@ -1,10 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://cqunlu5rsy0mm"]
+[gd_scene load_steps=4 format=3 uid="uid://b030xe4fd310h"]
 
-[ext_resource type="Texture2D" uid="uid://l3hhqxf8ia81" path="res://tilesettest.png" id="1_7sgtk"]
+[ext_resource type="Texture2D" uid="uid://bigoa0oeow7j6" path="res://Assets/Terrain/tilesettest.png" id="1_amwvs"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bou0w"]
-resource_name = "autotile"
-texture = ExtResource("1_7sgtk")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rvn8c"]
+resource_name = "autotile 0"
+texture = ExtResource("1_amwvs")
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 0
@@ -423,6 +423,22 @@ texture = ExtResource("1_7sgtk")
 10:3/0/terrains_peering_bit/left_side = 0
 10:3/0/terrains_peering_bit/top_left_corner = 0
 10:3/0/terrains_peering_bit/top_side = 0
+0:4/0 = 0
+0:4/0/terrain_set = 0
+0:4/0/terrain = 0
+0:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:4/0/physics_layer_0/angular_velocity = 0.0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:4/0/terrains_peering_bit/bottom_side = 0
+0:4/0/terrains_peering_bit/top_side = 0
+1:4/0 = 0
+1:4/0/terrain_set = 0
+1:4/0/terrain = 0
+1:4/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+1:4/0/physics_layer_0/angular_velocity = 0.0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:4/0/terrains_peering_bit/right_side = 0
+1:4/0/terrains_peering_bit/left_side = 0
 4:4/0 = 0
 4:4/0/terrain_set = 0
 4:4/0/terrain = 0
@@ -476,14 +492,14 @@ texture = ExtResource("1_7sgtk")
 8:4/0/terrains_peering_bit/left_side = 0
 8:4/0/terrains_peering_bit/top_side = 0
 
-[sub_resource type="TileSet" id="TileSet_x21it"]
+[sub_resource type="TileSet" id="TileSet_hyoel"]
 physics_layer_0/collision_layer = 1
 physics_layer_0/collision_mask = 0
 terrain_set_0/mode = 0
-terrain_set_0/terrain_0/name = "Autotile"
+terrain_set_0/terrain_0/name = "AutoTile0"
 terrain_set_0/terrain_0/color = Color(0.501961, 0.501961, 0.501961, 1)
-sources/0 = SubResource("TileSetAtlasSource_bou0w")
+sources/0 = SubResource("TileSetAtlasSource_rvn8c")
 
 [node name="LevelTileMap" type="TileMap"]
-tile_set = SubResource("TileSet_x21it")
+tile_set = SubResource("TileSet_hyoel")
 format = 2

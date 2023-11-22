@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://l3hhqxf8ia81"
-path="res://.godot/imported/tilesettest.png-061f16430b74281fdffecbb0b5fe86ee.ctex"
+uid="uid://cwdwwws1thicl"
+path="res://.godot/imported/slopes_flipped.png-01d46252d40b661d4fc8d43e6ca09917.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilesettest.png"
-dest_files=["res://.godot/imported/tilesettest.png-061f16430b74281fdffecbb0b5fe86ee.ctex"]
+source_file="res://Assets/Terrain/slopes_flipped.png"
+dest_files=["res://.godot/imported/slopes_flipped.png-01d46252d40b661d4fc8d43e6ca09917.ctex"]
 
 [params]
 

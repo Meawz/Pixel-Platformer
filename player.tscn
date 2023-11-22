@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://player.gd" id="1_c3riu"]
 [ext_resource type="Resource" uid="uid://cqwkgkxgwm4vi" path="res://DefaultMovementData.tres" id="2_063rr"]
-[ext_resource type="Texture2D" uid="uid://d1aay3xmu8uea" path="res://playerTest.png" id="3_12e40"]
+[ext_resource type="Texture2D" uid="uid://d1aay3xmu8uea" path="res://Assets/Characters/playerTest.png" id="3_35exq"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2a2jj"]
 load_path = "res://.godot/imported/playerTest.png-39498cb9c342b1cb1334e214a5b936cb.ctex"
@@ -12,31 +12,31 @@ atlas = SubResource("CompressedTexture2D_2a2jj")
 region = Rect2(72, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ar1cc"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(144, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oxm1e"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(24, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_512om"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(48, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_70wbi"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(72, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v6hct"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(96, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fewqn"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(120, 0, 24, 20)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ibhru"]
-atlas = ExtResource("3_12e40")
+atlas = ExtResource("3_35exq")
 region = Rect2(0, 0, 24, 20)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ov0ej"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bd6yfx2a818x2"
-path="res://.godot/imported/spikes.png-4a2427e7b6483a335646e762227cfd31.ctex"
+uid="uid://0ctd3b06ac7d"
+path="res://.godot/imported/slopes.png-201deddf024668bc783f1b3c43ddf673.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spikes.png"
-dest_files=["res://.godot/imported/spikes.png-4a2427e7b6483a335646e762227cfd31.ctex"]
+source_file="res://Assets/Terrain/slopes.png"
+dest_files=["res://.godot/imported/slopes.png-201deddf024668bc783f1b3c43ddf673.ctex"]
 
 [params]
 

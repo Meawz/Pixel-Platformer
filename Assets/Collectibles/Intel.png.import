@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s7fhgebf7n8w"
-path="res://.godot/imported/Intel.png-b4c2f9a2ac5f33ee0d48a33c8da0bf47.ctex"
+path="res://.godot/imported/Intel.png-272991f6f47c1631e966596f18b67434.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Intel.png"
-dest_files=["res://.godot/imported/Intel.png-b4c2f9a2ac5f33ee0d48a33c8da0bf47.ctex"]
+source_file="res://Assets/Collectibles/Intel.png"
+dest_files=["res://.godot/imported/Intel.png-272991f6f47c1631e966596f18b67434.ctex"]
 
 [params]
 
