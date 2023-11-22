@@ -1,3 +1,4 @@
-res://level_tile_map.tscn
+res://spikes.tscn
 res://world.tscn
 res://player.tscn
+res://level_tile_map.tscn
