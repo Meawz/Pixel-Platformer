@@ -1,4 +1,8 @@
-TileMap
+MarginContainer
+CanvasLayer
 ColorRect
+AnimationPlayer
+Node
+TileMap
 CollisionShape2D
 StaticBody2D
