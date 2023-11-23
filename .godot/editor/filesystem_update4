@@ -1,8 +1,4 @@
-res://world.tscn
 res://player.tscn
-res://level_tile_map.tscn
-res://world.gd
-res://world_copy.tscn
-res://level_1.tscn
 res://level_one.tscn
+res://level_tile_map.tscn
 res://level_two.tscn
