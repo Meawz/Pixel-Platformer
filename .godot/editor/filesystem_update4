@@ -1,4 +1,8 @@
+res://start_menu.tscn
+res://default_theme.tres
 res://world.tscn
 res://player.tscn
 res://level_transition.tscn
-res://player.gd
+res://black_9slice.tres
+res://start_menu.gd
+res://world.gd
