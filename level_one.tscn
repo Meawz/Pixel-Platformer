@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://by4ye57rgp4ym"]
 
-[ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://world.tscn" id="1_dm0xs"]
+[ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://Assets/Terrain/world.tscn" id="1_dm0xs"]
 [ext_resource type="PackedScene" uid="uid://du52fv4cld5w2" path="res://level_two.tscn" id="2_8bclt"]
 [ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://spikes.tscn" id="2_24skn"]
 [ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://intel.tscn" id="3_o16d2"]

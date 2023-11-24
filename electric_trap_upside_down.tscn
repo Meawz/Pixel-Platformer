@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3 uid="uid://cbu3n6gsaqvgh"]
+
+[ext_resource type="Script" path="res://electric_trap.gd" id="1_m4pyr"]
+[ext_resource type="Texture2D" uid="uid://ydvbn6yoaqfc" path="res://Assets/Hazards/electric_trap_spritesheet.png" id="2_6gfwj"]
+[ext_resource type="PackedScene" uid="uid://s7quqe80irs5" path="res://hazard_area.tscn" id="3_7s5w2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xxlm"]
+atlas = ExtResource("2_6gfwj")
+region = Rect2(0, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tan8o"]
+atlas = ExtResource("2_6gfwj")
+region = Rect2(32, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmoe5"]
+atlas = ExtResource("2_6gfwj")
+region = Rect2(64, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xg3cf"]
+atlas = ExtResource("2_6gfwj")
+region = Rect2(96, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iwxuu"]
+atlas = ExtResource("2_6gfwj")
+region = Rect2(128, 0, 32, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o2qp4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xxlm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tan8o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmoe5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xg3cf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iwxuu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 6.0
+}]
+
+[node name="ElectricTrap" type="Node2D"]
+rotation = 3.14159
+script = ExtResource("1_m4pyr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o2qp4")
+frame_progress = 0.990111
+
+[node name="HazardArea" parent="AnimatedSprite2D" instance=ExtResource("3_7s5w2")]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AnimatedSprite2D/HazardArea"]
+position = Vector2(-0.200001, 0.158333)
+scale = Vector2(1.00781, 1.02083)
+polygon = PackedVector2Array(-11, -4, -16, -1, -16, 8, 16, 8, 16, -2, 11, -4)
