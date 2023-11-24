@@ -23,10 +23,11 @@ D-padUp, A button - Jump
 
 Double-jump can be engaged while in air by pressing the Jump button!
 
+Wall-jump can pe engaged after jumping on a wall and on contact with the wall press the Left or Right key to jump in the desired direction.
+
+
 # How to complete the game
 
 To finish a level you need to collect all the Intels in said level, after which a Level Completed! screen will be displayed. Beware of traps...and others!
 
 Good luck and have fun!
-
-Wall-jump can pe engaged after jumping on a wall and on contact with the wall press the Left or Right key to jump in the desired direction.
