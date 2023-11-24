@@ -52,7 +52,7 @@ script = ExtResource("1_rttqo")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_o2qp4")
-frame_progress = 0.437221
+frame_progress = 0.990111
 
 [node name="HazardArea" parent="AnimatedSprite2D" instance=ExtResource("2_olam4")]
 

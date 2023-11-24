@@ -1,6 +1,10 @@
-res://level_one.tscn
-res://default_theme.tres
-res://start_menu.tscn
 res://world.tscn
 res://player.tscn
 res://level_transition.tscn
+res://start_menu.tscn
+res://player.gd
+res://electric_trap.tscn
+res://level_one.tscn
+res://electric_trap.gd
+res://intel.gd
+res://level_three.tscn

@@ -82,5 +82,7 @@ func update_animations(input_axis): # Plays the correct animation based on the s
 		animated_sprite_2d.play("jump")
 
 
-func _on_hazard_detector_area_entered(area): # Resets the player to the starting position after entering the hazard zone
+func _on_hazard_detector_area_entered(_area): # Resets the player to the starting position after entering the hazard zone
+	LevelTransition.fade_to_black() 
 	global_position = starting_position
+	LevelTransition.fade_from_black()
