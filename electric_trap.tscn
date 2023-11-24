@@ -57,4 +57,6 @@ frame_progress = 0.990111
 [node name="HazardArea" parent="AnimatedSprite2D" instance=ExtResource("2_olam4")]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AnimatedSprite2D/HazardArea"]
+position = Vector2(-0.200001, 0.158333)
+scale = Vector2(1.00781, 1.02083)
 polygon = PackedVector2Array(-11, -4, -16, -1, -16, 8, 16, 8, 16, -2, 11, -4)
