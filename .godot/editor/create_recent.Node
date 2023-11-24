@@ -1,3 +1,7 @@
+CollisionPolygon2D
+AnimatedSprite2D
+CollisionShape2D
+Area2D
 Button
 VBoxContainer
 CenterContainer
@@ -7,5 +11,4 @@ ColorRect
 AnimationPlayer
 Node
 TileMap
-CollisionShape2D
 StaticBody2D

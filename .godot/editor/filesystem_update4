@@ -1,4 +1,7 @@
+res://level_one.tscn
 res://world.tscn
 res://player.tscn
 res://level_transition.tscn
 res://start_menu.tscn
+res://electric_trap.tscn
+res://electric_trap.gd

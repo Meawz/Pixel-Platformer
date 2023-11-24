@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://by4ye57rgp4ym"]
+[gd_scene load_steps=7 format=3 uid="uid://by4ye57rgp4ym"]
 
 [ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://world.tscn" id="1_dm0xs"]
 [ext_resource type="PackedScene" uid="uid://du52fv4cld5w2" path="res://level_two.tscn" id="2_8bclt"]
 [ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://spikes.tscn" id="2_24skn"]
 [ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://intel.tscn" id="3_o16d2"]
 [ext_resource type="PackedScene" uid="uid://b030xe4fd310h" path="res://level_tile_map.tscn" id="4_nm8h0"]
+[ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://electric_trap.tscn" id="6_usyhb"]
 
 [node name="Level One" instance=ExtResource("1_dm0xs")]
 next_level = ExtResource("2_8bclt")
@@ -21,21 +22,18 @@ position = Vector2(192, 176)
 [node name="Spikes2" parent="." index="4" instance=ExtResource("2_24skn")]
 position = Vector2(208, 176)
 
-[node name="Spikes3" parent="." index="5" instance=ExtResource("2_24skn")]
-position = Vector2(272, 144)
-
-[node name="Spikes4" parent="." index="6" instance=ExtResource("2_24skn")]
-position = Vector2(288, 144)
-
-[node name="Intel" parent="." index="7" instance=ExtResource("3_o16d2")]
+[node name="Intel" parent="." index="5" instance=ExtResource("3_o16d2")]
 position = Vector2(9, -10)
 
-[node name="Intel2" parent="." index="8" instance=ExtResource("3_o16d2")]
+[node name="Intel2" parent="." index="6" instance=ExtResource("3_o16d2")]
 position = Vector2(280, 40)
 
-[node name="Intel3" parent="." index="9" instance=ExtResource("3_o16d2")]
+[node name="Intel3" parent="." index="7" instance=ExtResource("3_o16d2")]
 position = Vector2(240, -8)
 
-[node name="LevelTileMap" parent="." index="10" instance=ExtResource("4_nm8h0")]
+[node name="LevelTileMap" parent="." index="8" instance=ExtResource("4_nm8h0")]
 layer_0/tile_data = PackedInt32Array(0, 196611, 0, 65536, 196611, 1, 131072, 196611, 1, 196608, 196611, 1, 262144, 196611, 1, 327680, 196611, 1, 393216, 3, 1, 393217, 131075, 0, 458753, 262147, 2, 458754, 65539, 0, 524288, 3, 1, 524289, 393219, 0, 524290, 393219, 0, 524291, 65539, 0, 524293, 65539, 0, 524294, 65539, 0, 524295, 262147, 1, 524296, 65539, 0, 524297, 65539, 0, 524298, 131075, 1, 458762, 196611, 0, 458759, 131075, 0, 589824, 3, 1, 589825, 262147, 2, 589826, 262147, 0, 589827, 327683, 0, 589828, 262147, 2, 589829, 262147, 0, 589830, 262147, 3, 589831, 262147, 2, 589832, 327683, 0, 589833, 65539, 1, 589834, 131075, 1, 655360, 3, 1, 655361, 327683, 2, 655362, 327683, 2, 655363, 262147, 2, 655364, 393219, 0, 655365, 327683, 1, 655366, 327683, 0, 655367, 262147, 1, 655368, 262147, 0, 655369, 327683, 3, 655370, 131075, 1, 720906, 65539, 2, 720905, 65539, 2, 720904, 65539, 2, 720903, 65539, 2, 720902, 65539, 2, 720901, 65539, 2, 720900, 65539, 2, 720899, 65539, 2, 720898, 65539, 2, 720897, 65539, 2, 720896, 3, 2, 720907, 65539, 3, 720908, 65539, 3, 720909, 65539, 3, 720910, 65539, 2, 720911, 65539, 2, 655374, 3, 1, 589838, 3, 1, 524302, 3, 1, 524303, 65539, 1, 524304, 131075, 1, 458768, 131075, 0, 589840, 393219, 0, 655376, 327683, 3, 589839, 262147, 0, 655375, 327683, 0, 720912, 65539, 2, 655378, 262147, 1, 589842, 65539, 0, 589841, 65539, 0, 655377, 327683, 2, 720913, 65539, 2, 720914, 65539, 2, 720915, 131075, 2, 655379, 131075, 1, 589843, 131075, 1, 524307, 196611, 1, 458771, 196611, 1, 393235, 196611, 1, 327699, 196611, 1, 262163, 196611, 1, 196627, 196611, 1, 131091, 196611, 1, 65555, 196611, 1, 19, 196611, 0, 262158, 3, 2, 196622, 3, 1, 131086, 3, 1, 65550, 3, 1, 14, 3, 0, 15, 131075, 0, 65551, 131075, 1, 131087, 131075, 1, 196623, 131075, 1, 262159, 131075, 2, 458752, 3, 1, 524292, 65539, 0)
 layer_1/tile_data = PackedInt32Array(458758, 1, 0, 458766, 196609, 0, 458767, 262145, 0, 458755, 393218, 0, 524291, 327682, 0, 524294, 65537, 0)
+
+[node name="ElectricTrap" parent="." index="9" instance=ExtResource("6_usyhb")]
+position = Vector2(288, 136)

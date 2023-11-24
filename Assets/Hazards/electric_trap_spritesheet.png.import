@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bd6yfx2a818x2"
-path="res://.godot/imported/spikes.png-466e388f3d975e9e72c9ec5267be21d2.ctex"
+uid="uid://ydvbn6yoaqfc"
+path="res://.godot/imported/electric_trap_spritesheet.png-3752cc40a68a3de17f6630549ca45035.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Hazards/spikes.png"
-dest_files=["res://.godot/imported/spikes.png-466e388f3d975e9e72c9ec5267be21d2.ctex"]
+source_file="res://Assets/Hazards/electric_trap_spritesheet.png"
+dest_files=["res://.godot/imported/electric_trap_spritesheet.png-3752cc40a68a3de17f6630549ca45035.ctex"]
 
 [params]
 
