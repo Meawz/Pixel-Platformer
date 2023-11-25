@@ -90,4 +90,31 @@ position = Vector2(-48, -344)
 color = Color(0.32549, 0.32549, 0.32549, 1)
 
 [node name="IndustrialLightUp" parent="." instance=ExtResource("10_fdf0i")]
-position = Vector2(21, -193)
+position = Vector2(9, -248)
+
+[node name="IndustrialLightUp2" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(136, -104)
+
+[node name="IndustrialLightUp3" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(105, -104)
+
+[node name="IndustrialLightUp4" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(72, -104)
+
+[node name="IndustrialLightUp5" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(28, -168)
+
+[node name="IndustrialLightUp6" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(87, -248)
+
+[node name="IndustrialLightUp7" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(-97, -248)
+
+[node name="IndustrialLightUp8" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(-144, -328)
+
+[node name="IndustrialLightUp9" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(-79, -328)
+
+[node name="IndustrialLightUp10" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(-16, -328)
