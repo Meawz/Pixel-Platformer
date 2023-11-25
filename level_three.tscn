@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://electric_trap.tscn" id="7_6qdw3"]
 [ext_resource type="PackedScene" uid="uid://dlihfr0lx532p" path="res://electric_trap_point_right.tscn" id="8_0dvbm"]
 [ext_resource type="PackedScene" uid="uid://cbu3n6gsaqvgh" path="res://electric_trap_upside_down.tscn" id="9_cd124"]
-[ext_resource type="PackedScene" uid="uid://bob1y5w0x7von" path="res://industrial_light_center.tscn" id="10_312m6"]
+[ext_resource type="PackedScene" uid="uid://ck3l31yrr6sbu" path="res://industrial_light_up.tscn" id="10_fdf0i"]
 
 [node name="LevelThree" type="Node2D"]
 script = ExtResource("1_y8ow7")
@@ -86,26 +86,8 @@ position = Vector2(-112, -344)
 [node name="ElectricTrap6" parent="." instance=ExtResource("9_cd124")]
 position = Vector2(-48, -344)
 
-[node name="IndustrialLight" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(32, -48)
-
-[node name="IndustrialLight2" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(39, -202)
-
-[node name="IndustrialLight3" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(-182, -280)
-
-[node name="IndustrialLight4" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(151, -279)
-
-[node name="IndustrialLight5" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(145, -128)
-
-[node name="IndustrialLight6" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(-95, -212)
-
-[node name="IndustrialLight7" parent="." instance=ExtResource("10_312m6")]
-position = Vector2(-80, -347)
-
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0.309804, 0.309804, 0.309804, 1)
+color = Color(0.32549, 0.32549, 0.32549, 1)
+
+[node name="IndustrialLightUp" parent="." instance=ExtResource("10_fdf0i")]
+position = Vector2(21, -193)

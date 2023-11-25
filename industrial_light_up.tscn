@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://ck3l31yrr6sbu"]
+
+[ext_resource type="Texture2D" uid="uid://bf1t6uvdl4e5" path="res://Assets/Terrain/light_up.png" id="1_r3n8a"]
+
+[sub_resource type="Gradient" id="Gradient_lu7kv"]
+offsets = PackedFloat32Array(0.459574, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_c4x0h"]
+gradient = SubResource("Gradient_lu7kv")
+fill = 1
+fill_from = Vector2(0.504274, 0)
+fill_to = Vector2(0.529915, 0.995726)
+
+[node name="IndustrialLightUp" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_r3n8a")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(0, -6)
+color = Color(1, 0.780392, 0.317647, 1)
+energy = 2.0
+texture = SubResource("GradientTexture2D_c4x0h")
+texture_scale = 2.0

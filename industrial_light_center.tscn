@@ -2,22 +2,25 @@
 
 [ext_resource type="Texture2D" uid="uid://dipmgwupcqy5q" path="res://Assets/Terrain/light_center.png" id="1_4la80"]
 
-[sub_resource type="Gradient" id="Gradient_4ihod"]
-offsets = PackedFloat32Array(0, 0.00851064, 0.0468085, 1)
-colors = PackedColorArray(0, 0, 0, 1, 0.973404, 0.973404, 0.973404, 1, 0.255319, 0.255319, 0.255319, 1, 1, 1, 1, 0.921569)
+[sub_resource type="Gradient" id="Gradient_b28j0"]
+offsets = PackedFloat32Array(0.344681, 0.919149)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
 
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_g7imy"]
-gradient = SubResource("Gradient_4ihod")
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_3yjhs"]
+gradient = SubResource("Gradient_b28j0")
 fill = 1
-fill_from = Vector2(0.504274, 0.5)
+fill_from = Vector2(0.5, 0.508547)
+fill_to = Vector2(0.905983, 0.0641026)
 
-[node name="IndustrialLight" type="Node2D"]
+[node name="IndustrialLightCenter" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_4la80")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-color = Color(1, 0.764706, 0.113725, 1)
+color = Color(1, 0.780392, 0.317647, 1)
+energy = 2.0
 shadow_enabled = true
 shadow_color = Color(0, 0, 0, 0.92549)
-texture = SubResource("GradientTexture2D_g7imy")
+texture = SubResource("GradientTexture2D_3yjhs")
+texture_scale = 2.0
