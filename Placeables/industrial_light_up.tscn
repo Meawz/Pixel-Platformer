@@ -3,8 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://bf1t6uvdl4e5" path="res://Assets/Terrain/light_up.png" id="1_r3n8a"]
 
 [sub_resource type="Gradient" id="Gradient_6v2qw"]
-offsets = PackedFloat32Array(0.17803, 1)
-colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+offsets = PackedFloat32Array(0.189394, 0.564394, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_dcfiw"]
 gradient = SubResource("Gradient_6v2qw")

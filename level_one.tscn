@@ -1,11 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://by4ye57rgp4ym"]
+[gd_scene load_steps=7 format=3 uid="uid://ca84eqdri18j2"]
 
 [ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://Assets/Terrain/world.tscn" id="1_dm0xs"]
-[ext_resource type="PackedScene" uid="uid://du52fv4cld5w2" path="res://level_two.tscn" id="2_8bclt"]
-[ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://spikes.tscn" id="2_24skn"]
-[ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://intel.tscn" id="3_o16d2"]
+[ext_resource type="PackedScene" uid="uid://cmpt6e2cyudgr" path="res://level_two.tscn" id="2_8bclt"]
+[ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://Placeables/spikes.tscn" id="2_24skn"]
+[ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://Placeables/intel.tscn" id="3_o16d2"]
 [ext_resource type="PackedScene" uid="uid://b030xe4fd310h" path="res://level_tile_map.tscn" id="4_nm8h0"]
-[ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://electric_trap.tscn" id="6_usyhb"]
+[ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://Placeables/electric_trap.tscn" id="6_usyhb"]
 
 [node name="Level One" instance=ExtResource("1_dm0xs")]
 next_level = ExtResource("2_8bclt")

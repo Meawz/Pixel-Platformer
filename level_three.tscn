@@ -1,15 +1,16 @@
-[gd_scene load_steps=11 format=3 uid="uid://2mty4sfm7g4a"]
+[gd_scene load_steps=12 format=3 uid="uid://bouepduoo0hus"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_y8ow7"]
 [ext_resource type="PackedScene" uid="uid://c3ch5y1y7sc1f" path="res://player.tscn" id="2_ew7xi"]
 [ext_resource type="PackedScene" uid="uid://ck173oienetti" path="res://level_completed.tscn" id="3_6nkn4"]
 [ext_resource type="PackedScene" uid="uid://b030xe4fd310h" path="res://level_tile_map.tscn" id="4_262fg"]
-[ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://intel.tscn" id="5_ggi75"]
-[ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://spikes.tscn" id="6_imntn"]
-[ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://electric_trap.tscn" id="7_6qdw3"]
-[ext_resource type="PackedScene" uid="uid://dlihfr0lx532p" path="res://electric_trap_point_right.tscn" id="8_0dvbm"]
-[ext_resource type="PackedScene" uid="uid://cbu3n6gsaqvgh" path="res://electric_trap_upside_down.tscn" id="9_cd124"]
-[ext_resource type="PackedScene" uid="uid://ck3l31yrr6sbu" path="res://industrial_light_up.tscn" id="10_fdf0i"]
+[ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://Placeables/intel.tscn" id="5_ggi75"]
+[ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://Placeables/spikes.tscn" id="6_imntn"]
+[ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://Placeables/electric_trap.tscn" id="7_6qdw3"]
+[ext_resource type="PackedScene" uid="uid://dlihfr0lx532p" path="res://Placeables/electric_trap_point_right.tscn" id="8_0dvbm"]
+[ext_resource type="PackedScene" uid="uid://cbu3n6gsaqvgh" path="res://Placeables/electric_trap_upside_down.tscn" id="9_cd124"]
+[ext_resource type="PackedScene" uid="uid://ck3l31yrr6sbu" path="res://Placeables/industrial_light_up.tscn" id="10_fdf0i"]
+[ext_resource type="PackedScene" uid="uid://bob1y5w0x7von" path="res://Placeables/industrial_light_center.tscn" id="11_jukey"]
 
 [node name="LevelThree" type="Node2D"]
 script = ExtResource("1_y8ow7")
@@ -87,7 +88,7 @@ position = Vector2(-112, -344)
 position = Vector2(-48, -344)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0.32549, 0.32549, 0.32549, 1)
+color = Color(0.309804, 0.309804, 0.309804, 1)
 
 [node name="IndustrialLightUp" parent="." instance=ExtResource("10_fdf0i")]
 position = Vector2(9, -248)
@@ -118,3 +119,9 @@ position = Vector2(-79, -328)
 
 [node name="IndustrialLightUp10" parent="." instance=ExtResource("10_fdf0i")]
 position = Vector2(-16, -328)
+
+[node name="IndustrialLightCenter" parent="." instance=ExtResource("11_jukey")]
+position = Vector2(-23, -37)
+
+[node name="IndustrialLightCenter2" parent="." instance=ExtResource("11_jukey")]
+position = Vector2(-233, -231)
