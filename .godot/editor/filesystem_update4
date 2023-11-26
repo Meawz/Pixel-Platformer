@@ -1,8 +1,6 @@
-res://level_three.tscn
-res://industrial_light_up.tscn
 res://player.tscn
 res://level_transition.tscn
 res://start_menu.tscn
-res://industrial_light_center.tscn
-res://level_two.tscn
 res://level_one.tscn
+res://level_two.tscn
+res://level_three.tscn
