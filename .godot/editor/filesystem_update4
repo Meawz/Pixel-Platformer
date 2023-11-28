@@ -4,4 +4,7 @@ res://start_menu.tscn
 res://level_one.tscn
 res://level_two.tscn
 res://level_three.tscn
+<<<<<<< HEAD
 res://player.gd
+=======
+>>>>>>> f761900df449c6341867b33017d1324e7a43482b
