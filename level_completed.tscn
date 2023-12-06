@@ -19,3 +19,4 @@ grow_vertical = 2
 [node name="Label" type="Label" parent="CenterContainer"]
 layout_mode = 2
 text = "Level Completed!"
+horizontal_alignment = 1
