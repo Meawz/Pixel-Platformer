@@ -1,12 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://cmpt6e2cyudgr"]
 
-[ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://Assets/Terrain/world.tscn" id="1_o0qmt"]
+[ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://world.tscn" id="1_8ymnk"]
 [ext_resource type="PackedScene" uid="uid://b030xe4fd310h" path="res://level_tile_map.tscn" id="2_hdea3"]
 [ext_resource type="PackedScene" uid="uid://bouepduoo0hus" path="res://level_three.tscn" id="2_ien5f"]
 [ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://Placeables/spikes.tscn" id="3_6olnp"]
 [ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://Placeables/intel.tscn" id="4_wvoua"]
 
-[node name="Level Two" instance=ExtResource("1_o0qmt")]
+[node name="Level Two" instance=ExtResource("1_8ymnk")]
 next_level = ExtResource("2_ien5f")
 
 [node name="Player" parent="." index="0"]

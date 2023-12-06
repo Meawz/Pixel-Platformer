@@ -1,3 +1,7 @@
+ColorRect
+CenterContainer
+Label
+AnimationPlayer
 Timer
 PointLight2D
 Sprite2D
@@ -8,11 +12,8 @@ CollisionShape2D
 Area2D
 Button
 VBoxContainer
-CenterContainer
 MarginContainer
 CanvasLayer
-ColorRect
-AnimationPlayer
 Node
 TileMap
 StaticBody2D

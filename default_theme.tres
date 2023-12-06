@@ -7,6 +7,10 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g231b"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_q1p6y"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
 
 [resource]
 Button/colors/font_color = Color(0, 0, 0, 1)
