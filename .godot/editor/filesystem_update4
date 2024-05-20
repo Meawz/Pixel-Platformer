@@ -1,12 +1,4 @@
-res://start_menu.tscn
-res://player.tscn
-res://level_one.tscn
-res://level_two.tscn
 res://world.tscn
-res://world.gd
-res://player.gd
 res://default_theme.tres
-res://button_hover.tres
-res://level_three.tscn
+res://player.tscn
 res://level_completed.tscn
-res://level_completed.gd
