@@ -6,6 +6,7 @@ A small game(for now) that I want to evolve.
 
 This game was made using the Godot 4 game engine, GDScript code and Aseprite for the art and animations.
 
+You can preview the game here: https://youtu.be/onr7kFXboxc
 
 # Controls
 
