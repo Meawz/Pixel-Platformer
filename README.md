@@ -2,7 +2,9 @@
 Trying new ideas
 
 
-A small game(for now) that I want to evolve into a playable magnum opus.
+A small game(for now) that I want to evolve.
+
+This game was made using the Godot 4 game engine, GDScript code and Aseprite for the art and animations.
 
 
 # Controls
