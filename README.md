@@ -26,7 +26,7 @@ D-padUp, A button - Jump
 
 Double-jump can be engaged while in air by pressing the Jump button!
 
-Wall-jump can pe engaged after jumping on a wall and on contact with the wall press the Left or Right key to jump in the desired direction.
+Wall-jump can pe engaged after jumping on a wall and on contact with the wall press the jump key to jump in the desired direction.
 
 
 # How to complete the game
