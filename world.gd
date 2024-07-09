@@ -12,7 +12,7 @@ func _ready():
 	Events.level_completed.connect(show_level_completed)
 	start_level_msec = Time.get_ticks_msec()
 
-func _process(delta):
+func _process(_delta):
 	level_time = Time.get_ticks_msec() - start_level_msec
 	level_time_label.text = str(level_time / 1000.0)
 

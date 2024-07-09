@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://ca84eqdri18j2"]
+[gd_scene load_steps=11 format=3 uid="uid://ca84eqdri18j2"]
 
 [ext_resource type="PackedScene" uid="uid://jlqrig7lriss" path="res://world.tscn" id="1_2xoap"]
 [ext_resource type="PackedScene" uid="uid://cmpt6e2cyudgr" path="res://level_two.tscn" id="2_8bclt"]
@@ -6,6 +6,45 @@
 [ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://Placeables/intel.tscn" id="3_o16d2"]
 [ext_resource type="PackedScene" uid="uid://b030xe4fd310h" path="res://level_tile_map.tscn" id="4_nm8h0"]
 [ext_resource type="PackedScene" uid="uid://busj2l8cljn6" path="res://Placeables/electric_trap.tscn" id="6_usyhb"]
+[ext_resource type="PackedScene" uid="uid://ckmrjvkvtf0ea" path="res://moving_platform.tscn" id="7_aq7d8"]
+
+[sub_resource type="Animation" id="Animation_e7amn"]
+resource_name = "move"
+length = 2.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(59, 8), Vector2(181, 8)]
+}
+
+[sub_resource type="Animation" id="Animation_n022r"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(59, 8)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ksse7"]
+_data = {
+"RESET": SubResource("Animation_n022r"),
+"move": SubResource("Animation_e7amn")
+}
 
 [node name="Level One" instance=ExtResource("1_2xoap")]
 next_level = ExtResource("2_8bclt")
@@ -37,3 +76,12 @@ layer_1/tile_data = PackedInt32Array(458758, 1, 0, 458766, 196609, 0, 458767, 26
 
 [node name="ElectricTrap" parent="." index="9" instance=ExtResource("6_usyhb")]
 position = Vector2(288, 136)
+
+[node name="Platform" parent="." index="11" instance=ExtResource("7_aq7d8")]
+position = Vector2(59, 8)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform" index="2"]
+libraries = {
+"": SubResource("AnimationLibrary_ksse7")
+}
+autoplay = "move"

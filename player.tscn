@@ -88,6 +88,7 @@ size = Vector2(8, 16)
 size = Vector2(6, 14)
 
 [node name="Player" type="CharacterBody2D"]
+z_index = 5
 collision_layer = 2
 floor_constant_speed = true
 floor_snap_length = 3.0
