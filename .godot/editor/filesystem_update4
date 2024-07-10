@@ -1,6 +1,5 @@
-res://level_one.tscn
 res://default_theme.tres
+res://level_four.tscn
 res://world.tscn
 res://player.tscn
-res://moving_platform.tscn
-res://world.gd
+res://level_three.tscn
