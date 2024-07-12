@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://d153d6wmuqurj" path="res://Placeables/spikes.tscn" id="3_6olnp"]
 [ext_resource type="PackedScene" uid="uid://cg1rkqmsm6hpo" path="res://Placeables/intel.tscn" id="4_wvoua"]
 
-[node name="Level Two" instance=ExtResource("1_8ymnk")]
+[node name="LevelTwo" instance=ExtResource("1_8ymnk")]
 next_level = ExtResource("2_ien5f")
 
 [node name="Player" parent="." index="0"]

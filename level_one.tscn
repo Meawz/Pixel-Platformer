@@ -46,7 +46,7 @@ _data = {
 "move": SubResource("Animation_e7amn")
 }
 
-[node name="Level One" instance=ExtResource("1_2xoap")]
+[node name="LevelOne" instance=ExtResource("1_2xoap")]
 next_level = ExtResource("2_8bclt")
 
 [node name="Player" parent="." index="0"]
