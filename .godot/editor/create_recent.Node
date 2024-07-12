@@ -1,8 +1,9 @@
+CanvasModulate
 AnimationPlayer
-AnimationTree
 CollisionShape2D
 Sprite2D
 AnimatableBody2D
+AnimationTree
 Button
 HBoxContainer
 VBoxContainer
@@ -11,4 +12,3 @@ Label
 ColorRect
 Timer
 PointLight2D
-CanvasModulate
