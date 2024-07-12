@@ -1,3 +1,4 @@
+Node
 CanvasModulate
 AnimationPlayer
 CollisionShape2D
@@ -11,4 +12,3 @@ CenterContainer
 Label
 ColorRect
 Timer
-PointLight2D

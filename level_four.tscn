@@ -318,185 +318,191 @@ position = Vector2(0, 192)
 [node name="LevelTileMap" parent="." index="2"]
 layer_0/tile_data = PackedInt32Array(786430, 196611, 1, 851966, 3, 2, 851967, 65539, 3, 786432, 65539, 3, 786433, 131075, 2, 720897, 196611, 1, 655361, 196611, 1, 720894, 196611, 1, 655358, 196611, 1, 589822, 196611, 1, 524286, 196611, 1, 458750, 196611, 1, 393214, 196611, 1, 327678, 196611, 1, 589825, 196611, 1, 524289, 196611, 1, 458753, 196611, 1, 393217, 196611, 1, 327681, 196611, 1, 262145, 3, 1, 196609, 3, 1, 262142, 196611, 1, 196606, 196611, 1, 131070, 196611, 1, 65534, 196611, 1, -2, 196611, 1, -65538, 196611, 1, -131074, 196611, 1, -196610, 196611, 1, -262146, 196611, 1, -327682, 196611, 1, -393218, 196611, 1, -458754, 3, 0, -458753, 65539, 3, -524288, 65539, 3, -524287, 65539, 3, -524286, 65539, 3, -524285, 65539, 3, -524284, 65539, 3, -524283, 65539, 3, -524282, 65539, 3, -524281, 65539, 3, -524280, 65539, 3, -524279, 65539, 0, -524278, 262147, 0, -524277, 65539, 2, -524276, 65539, 2, -524275, 262146, 0, -524274, 65539, 3, -524273, 65539, 3, 262146, 65539, 2, 262147, 65539, 3, 262148, 65539, 3, 262149, 65539, 3, 262150, 65539, 3, 262151, 65539, 3, 262152, 65539, 3, 262153, 65539, 3, 262154, 65539, 3, 262155, 65539, 3, 262156, 65539, 3, 262157, 65539, 3, 262158, 65539, 3, 262159, 65539, 3, 262160, 65539, 3, 262161, 65539, 2, 262162, 65539, 2, 262163, 65539, 3, 131073, 3, 0, 131074, 131075, 0, 196610, 131075, 1, 262164, 65539, 3, 262165, 65539, 3, 262166, 65539, 3, 262167, 65539, 3, 262168, 131075, 2, 196632, 196611, 1, 131096, 196611, 1, 65560, 196611, 1, 24, 196611, 1, -65512, 196611, 1, -131048, 196611, 1, -196584, 196611, 1, -262120, 196611, 1, -327656, 196611, 1, -393192, 196611, 1, -458728, 196611, 1, -524264, 196611, 1, 131089, 196611, 0, 196626, 131075, 0, 196625, 3, 1, -524272, 65539, 3, -524271, 131075, 3, -589800, 196611, 1, -655336, 196611, 1, -720872, 196611, 1, -786408, 196611, 1, -851944, 131075, 0, -851945, 65539, 3, -851946, 65539, 3, -851947, 65539, 3, -851948, 65539, 3, -851949, 65539, 3, -851950, 65539, 3, -851951, 65539, 3, -851952, 65539, 3, -851953, 65539, 3, -851954, 3, 2, -917490, 131075, 0, -917491, 3, 2, -983027, 131075, 0, -589814, 3, 1, -655350, 327682, 0, -655351, 3, 2, -720887, 327682, 0, -720888, 3, 2, -786424, 327682, 0, -786425, 3, 2, -851961, 65539, 0, -851962, 3, 2, -917498, 196611, 1, -983034, 196611, 1, -1048570, 196611, 1, -1114106, 131075, 1, -1179643, 327682, 0, -1245180, 327682, 0, -1310717, 327682, 0, -1376254, 327682, 0, -1441791, 65539, 0, -1376255, 3, 2, -1310718, 3, 2, -1245181, 3, 2, -1179644, 3, 2, -1114107, 3, 2, -1179636, 65537, 0, -1245171, 65537, 0, -1310706, 65537, 0, -1376241, 65537, 0, -1441776, 65539, 0, -1376240, 131075, 2, -1310705, 131075, 2, -1245170, 131075, 2, -1179635, 131075, 2, -1114100, 131075, 1, -1048564, 131075, 1, -1441792, 65539, 3, -1376257, 65539, 3, -1376258, 3, 2, -1441775, 65539, 3, -1441774, 65539, 3, -1441773, 131075, 2, -1441794, 196611, 1, -1507330, 196611, 1, -1572866, 196611, 1, -1638402, 196611, 1, -1703938, 196611, 1, -1769474, 196611, 1, -1835010, 3, 1, -1900546, 196611, 1, -1966082, 196611, 1, -2031618, 196611, 1, -2097154, 196611, 1, -2162690, 3, 1, -2228226, 196611, 1, -2293762, 196611, 1, -2359298, 196611, 1, -2424834, 3, 1, -2490370, 196611, 1, -2555906, 196611, 1, -2621442, 196611, 1, -2686978, 196611, 1, -2752514, 196611, 1, -2818050, 196611, 1, -2883586, 196611, 1, -2949122, 196611, 1, -3014658, 196611, 1, -3080194, 196611, 1, -3145730, 196611, 1, -3211266, 196611, 1, -3276802, 196611, 1, -3342338, 3, 0, -3342337, 65539, 3, -3407872, 65539, 3, -3407871, 65539, 3, -3407870, 65539, 3, -3407869, 65539, 3, -3407868, 65539, 3, -3407867, 65539, 3, -3407866, 65539, 3, -3407865, 131075, 1, -3407862, 3, 1, -3407861, 65539, 2, -3407860, 65539, 2, -3407859, 65539, 2, -3407858, 65539, 2, -3407857, 65539, 2, -3407856, 65539, 3, -3407855, 65539, 3, -3407854, 65539, 3, -3407853, 131075, 0, -1507309, 196611, 1, -1572845, 196611, 1, -1638381, 196611, 1, -1703917, 196611, 1, -1769453, 196611, 1, -1834989, 196611, 1, -1900525, 196611, 1, -1966061, 196611, 1, -2031597, 196611, 1, -2097133, 196611, 1, -2162669, 196611, 1, -2228205, 131075, 1, -2293741, 196611, 1, -2359277, 196611, 1, -2424813, 196611, 1, -2490349, 131075, 1, -2555885, 196611, 1, -2621421, 196611, 1, -2686957, 196611, 1, -2752493, 196611, 1, -2818029, 196611, 1, -2883565, 196611, 1, -2949101, 196611, 1, -3014637, 196611, 1, -3080173, 196611, 1, -3145709, 196611, 1, -3211245, 196611, 1, -3276781, 196611, 1, -3342317, 196611, 1, -1048566, 131073, 0, -1048567, 3, 3, -3473401, 196611, 1, -3473398, 3, 1, -3538934, 3, 1, -3538937, 196611, 1, -3604473, 196611, 1, -3604470, 3, 1, -3670006, 3, 0, -3670009, 196611, 1, -3735545, 196611, 1, -3866617, 196611, 1, -3801081, 196611, 1, -3932153, 3, 0, -3932152, 65539, 3, -3932151, 65539, 3, -3932150, 65539, 3, -3932149, 65539, 3, -3932148, 65539, 0, -3932147, 65539, 0, -3932146, 65539, 0, -3932145, 65539, 0, -3932144, 65539, 0, -589812, 131074, 0, -589811, 196610, 0, -589813, 327682, 0, -655349, 393218, 0, -720886, 393218, 0, -786423, 393218, 0, -851960, 393218, 0, -1114102, 1, 0, -1179637, 1, 0, -1245172, 1, 0, -1310707, 1, 0, -1376242, 1, 0, -1441777, 1, 0, -1245179, 393218, 0, -1310716, 393218, 0, -1376253, 393218, 0, -1179642, 393218, 0, 65545, 3, 2, 65546, 131075, 2, 9, 3, 0, 10, 131075, 0, -196599, 3, 2, -262135, 3, 1, -327671, 3, 1, -458743, 3, 1, -393207, 3, 1, -458742, 131075, 1, -393206, 131075, 1, -196598, 65539, 2, -262134, 131075, 1, -327670, 131075, 1, -196597, 65539, 3, -196596, 65539, 3, -196595, 65539, 3, -196594, 131075, 3, -1114101, 65537, 0, -1048565, 65539, 2, -983028, 3, 2, -1835009, 65539, 3, -1900544, 131075, 3, -2162689, 65539, 3, -2228224, 131075, 3, -2228206, 65539, 3, -2228207, 3, 3, -2424833, 65539, 3, -2490350, 65539, 3, -2490351, 3, 3, -2490368, 131075, 3, -3145725, 3, 3, -3145724, 65539, 3, -3145723, 65539, 3, -3145722, 65539, 0, -3145721, 65539, 0, -3145720, 65539, 0, -3145719, 65539, 0, -3145718, 65539, 0, -3145717, 65539, 0, -3145716, 65539, 3, -3145715, 65539, 3, -3145714, 131075, 3, -3342329, 196611, 2, -3342326, 196611, 2, -3670005, 131075, 0, -3604469, 262147, 2, -3604468, 131075, 0, -3538932, 262147, 0, -3538931, 65539, 0, -3538930, 131075, 0, -3473394, 327683, 1, -3473393, 131075, 0, -3473395, 262147, 3, -3473396, 327683, 0, -3473397, 327683, 0, -3538933, 393219, 0, -3080186, 3, 2, -3080185, 327683, 0, -3014649, 3, 2, -3014648, 262147, 3, -3014647, 262147, 2, -3014646, 131075, 2, -3080182, 327683, 0, -3080181, 131075, 2, -3080183, 327683, 1, -3080184, 393219, 0, -3866612, 3, 2, -3866611, 327683, 2, -3801075, 3, 2, -3801074, 262147, 1, -3735538, 3, 2, -3735537, 65539, 2, -3670000, 3, 2, -3669999, 327683, 3, -3604463, 3, 2, -3801072, 393219, 0, -3735536, 262147, 0, -3735535, 262147, 0, -3801071, 327683, 2, -3866607, 262147, 3, -3932143, 65539, 0, -3866609, 327683, 0, -3801073, 327683, 1, -3866608, 262147, 2, -3866610, 65539, 1, -3604462, 65539, 2, -3604461, 131075, 2, -3669998, 262147, 3, -3932142, 65539, 0, -3932141, 131075, 0, -3866605, 131075, 1, -3801069, 131075, 1, -3735533, 131075, 1, -3669997, 131075, 1, -3735534, 327683, 2, -3801070, 327683, 1, -3866606, 327683, 3, -2949112, 3, 2, -2949111, 131075, 2, -1441790, 393218, 0)
 
-[node name="Spikes" parent="." index="3" instance=ExtResource("2_ornli")]
-position = Vector2(64, 64)
+[node name="Platforms" type="Node" parent="." index="3"]
 
-[node name="Spikes2" parent="Spikes" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(48, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes2" parent="Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
-position = Vector2(16, 0)
-
-[node name="Spikes" parent="Spikes" index="3" instance=ExtResource("2_ornli")]
-position = Vector2(-16, 0)
-
-[node name="Spikes3" parent="Spikes" index="4" instance=ExtResource("2_ornli")]
-position = Vector2(-80, -527)
-
-[node name="Spikes4" parent="Spikes" index="5" instance=ExtResource("2_ornli")]
-position = Vector2(-64, -527)
-
-[node name="Spikes6" parent="Spikes" index="6" instance=ExtResource("2_ornli")]
-position = Vector2(-80, -607)
-
-[node name="Spikes7" parent="Spikes" index="7" instance=ExtResource("2_ornli")]
-position = Vector2(-64, -607)
-
-[node name="Spikes8" parent="Spikes" index="8" instance=ExtResource("2_ornli")]
-position = Vector2(-80, -671)
-
-[node name="Spikes9" parent="Spikes" index="9" instance=ExtResource("2_ornli")]
-position = Vector2(-64, -671)
-
-[node name="Spikes11" parent="Spikes" index="10" instance=ExtResource("2_ornli")]
-position = Vector2(224, -607)
-
-[node name="Spikes12" parent="Spikes" index="11" instance=ExtResource("2_ornli")]
-position = Vector2(208, -607)
-
-[node name="Spikes13" parent="Spikes" index="12" instance=ExtResource("2_ornli")]
-position = Vector2(224, -671)
-
-[node name="Spikes14" parent="Spikes" index="13" instance=ExtResource("2_ornli")]
-position = Vector2(208, -671)
-
-[node name="Platform1" parent="." index="4" instance=ExtResource("3_etnwv")]
+[node name="Platform1" parent="Platforms" index="0" instance=ExtResource("3_etnwv")]
 position = Vector2(92, 40)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform1" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform1" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_ap0co")
 }
 autoplay = "move"
 
-[node name="PlatformUP1" parent="." index="5" instance=ExtResource("3_etnwv")]
+[node name="PlatformUP1" parent="Platforms" index="1" instance=ExtResource("3_etnwv")]
 position = Vector2(341, 39)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="PlatformUP1" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/PlatformUP1" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_3dju3")
 }
 autoplay = "move"
 
-[node name="Platform2" parent="." index="6" instance=ExtResource("3_etnwv")]
+[node name="Platform2" parent="Platforms" index="2" instance=ExtResource("3_etnwv")]
 position = Vector2(27, -425)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform2" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform2" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_ql8hu")
 }
 autoplay = "move"
 
-[node name="Platform3" parent="." index="7" instance=ExtResource("3_etnwv")]
+[node name="Platform3" parent="Platforms" index="3" instance=ExtResource("3_etnwv")]
 position = Vector2(261, -499)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform3" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform3" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_bbk0i")
 }
 autoplay = "move"
 
-[node name="Platform4" parent="." index="8" instance=ExtResource("3_etnwv")]
+[node name="Platform4" parent="Platforms" index="4" instance=ExtResource("3_etnwv")]
 position = Vector2(27, -571)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform4" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform4" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_d113u")
 }
 autoplay = "move"
 
-[node name="Platform5" parent="." index="9" instance=ExtResource("3_etnwv")]
+[node name="Platform5" parent="Platforms" index="5" instance=ExtResource("3_etnwv")]
 position = Vector2(261, -648)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Platform5" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform5" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_rk5ot")
 }
 autoplay = "RESET"
 
-[node name="PlatformSmallUP1" parent="." index="10" instance=ExtResource("4_4s2c7")]
+[node name="PlatformSmallUP1" parent="Platforms" index="6" instance=ExtResource("4_4s2c7")]
 position = Vector2(272, -711)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="PlatformSmallUP1" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/PlatformSmallUP1" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_s762g")
 }
 autoplay = "move"
 
-[node name="PlatformSmallUP2" parent="." index="11" instance=ExtResource("4_4s2c7")]
+[node name="PlatformSmallUP2" parent="Platforms" index="7" instance=ExtResource("4_4s2c7")]
 position = Vector2(12, -711)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="PlatformSmallUP2" index="2"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/PlatformSmallUP2" index="2"]
 libraries = {
 "": SubResource("AnimationLibrary_crhwu")
 }
 autoplay = "move"
 
-[node name="CanvasModulate" type="CanvasModulate" parent="." index="12"]
-color = Color(0.309804, 0.309804, 0.309804, 1)
+[node name="Spikes" type="Node" parent="." index="4"]
 
-[node name="IndustrialLightUp" parent="." index="13" instance=ExtResource("5_kr703")]
+[node name="Spikes" parent="Spikes" index="0" instance=ExtResource("2_ornli")]
+position = Vector2(64, 64)
+
+[node name="Spikes2" parent="Spikes/Spikes" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(48, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes2" parent="Spikes/Spikes/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2/Spikes2" index="2" instance=ExtResource("2_ornli")]
+position = Vector2(16, 0)
+
+[node name="Spikes" parent="Spikes/Spikes" index="3" instance=ExtResource("2_ornli")]
+position = Vector2(-16, 0)
+
+[node name="Spikes3" parent="Spikes/Spikes" index="4" instance=ExtResource("2_ornli")]
+position = Vector2(-80, -527)
+
+[node name="Spikes4" parent="Spikes/Spikes" index="5" instance=ExtResource("2_ornli")]
+position = Vector2(-64, -527)
+
+[node name="Spikes6" parent="Spikes/Spikes" index="6" instance=ExtResource("2_ornli")]
+position = Vector2(-80, -607)
+
+[node name="Spikes7" parent="Spikes/Spikes" index="7" instance=ExtResource("2_ornli")]
+position = Vector2(-64, -607)
+
+[node name="Spikes8" parent="Spikes/Spikes" index="8" instance=ExtResource("2_ornli")]
+position = Vector2(-80, -671)
+
+[node name="Spikes9" parent="Spikes/Spikes" index="9" instance=ExtResource("2_ornli")]
+position = Vector2(-64, -671)
+
+[node name="Spikes11" parent="Spikes/Spikes" index="10" instance=ExtResource("2_ornli")]
+position = Vector2(224, -607)
+
+[node name="Spikes12" parent="Spikes/Spikes" index="11" instance=ExtResource("2_ornli")]
+position = Vector2(208, -607)
+
+[node name="Spikes13" parent="Spikes/Spikes" index="12" instance=ExtResource("2_ornli")]
+position = Vector2(224, -671)
+
+[node name="Spikes14" parent="Spikes/Spikes" index="13" instance=ExtResource("2_ornli")]
+position = Vector2(208, -671)
+
+[node name="Lights" type="Node" parent="." index="5"]
+
+[node name="IndustrialLightUp" parent="Lights" index="0" instance=ExtResource("5_kr703")]
 position = Vector2(9, 159)
 rotation = 1.5708
 
-[node name="IndustrialLightUp2" parent="." index="14" instance=ExtResource("5_kr703")]
+[node name="IndustrialLightUp2" parent="Lights" index="1" instance=ExtResource("5_kr703")]
 position = Vector2(-9, 70)
 rotation = -1.5708
 
-[node name="IndustrialLightCenter" parent="." index="15" instance=ExtResource("6_n1ldp")]
+[node name="IndustrialLightCenter" parent="Lights" index="2" instance=ExtResource("6_n1ldp")]
 position = Vector2(160, 16)
 
-[node name="IndustrialLightUp3" parent="." index="16" instance=ExtResource("5_kr703")]
+[node name="IndustrialLightUp3" parent="Lights" index="3" instance=ExtResource("5_kr703")]
 position = Vector2(167, -233)
 
-[node name="IndustrialLightCenter2" parent="." index="17" instance=ExtResource("6_n1ldp")]
+[node name="IndustrialLightCenter2" parent="Lights" index="4" instance=ExtResource("6_n1ldp")]
 position = Vector2(191, -126)
 
-[node name="IndustrialLightUp4" parent="." index="18" instance=ExtResource("5_kr703")]
+[node name="IndustrialLightUp4" parent="Lights" index="5" instance=ExtResource("5_kr703")]
 position = Vector2(377, -80)
 rotation = 1.5708
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." index="6"]
+color = Color(0.309804, 0.309804, 0.309804, 1)
